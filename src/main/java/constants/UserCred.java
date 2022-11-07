@@ -10,8 +10,8 @@ public class UserCred {
     public final static String ORDER_NUMBER = "99922233344422211";
     public final static String MESSAGE = "I not fully know how to open drop-down list in the previously field :)";
 
-    private String email = null;
-    private String password = null;
+    private String email = USER_EMAIL;
+    private String password = USER_PASSWORD;
 
     public UserCred(String email, String password) {
         this.email = email;
